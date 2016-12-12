@@ -6,6 +6,7 @@ begin
 end
 
 ENV['CYCLID_CONFIG'] = File.join(%w(config development))
+ENV['MIST_CONFIG'] = File.join(%w(config mist))
 
 require 'rubygems/tasks'
 Gem::Tasks.new
