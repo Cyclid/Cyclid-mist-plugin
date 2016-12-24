@@ -5,12 +5,12 @@ gemspec
 
 group :development, :test do
   gem 'rake'
-  gem 'rubocop'
   gem 'rspec'
-  gem 'simplecov'
-  gem 'yard'
-  gem 'webmock'
+  gem 'rubocop'
   gem 'rubygems-tasks'
+  gem 'simplecov'
+  gem 'webmock'
+  gem 'yard'
 
   gem 'cyclid', path: '../Cyclid'
 end
